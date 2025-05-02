@@ -39,33 +39,26 @@ Ce projet est une application web complète de gestion de produits avec authenti
 ```bash
 git clone https://github.com/mike07thereal/ProjetAppCRUD.git
 cd ProjetAppCRUD
+
 2. Démarrer le backend
-bash
-Copier
-Modifier
 cd backend
 npm install
 touch .env
+
 Dans le fichier .env :
 
-ini
-Copier
-Modifier
 MONGO_URI=mongodb://127.0.0.1:27017/gestion-produits
 JWT_SECRET=votre_clé_secrète
-Puis :
 
-bash
-Copier
-Modifier
+Puis :
 npm run dev
+
 3. Démarrer le frontend
-bash
-Copier
-Modifier
+
 cd ../frontend
 npm install
 npm start
+
 🌐 Accès
 Inscription : http://localhost:3000/register
 
